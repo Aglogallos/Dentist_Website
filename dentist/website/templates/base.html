@@ -37,7 +37,7 @@
           <!-- Top Content -->
           <div class="col-6 col-md-9 col-lg-8">
             <div class="top-header-content">
-              <a href="" data-toggle="tooltip" data-placement="bottom" target="_blank" title="Königsberger Str. 2 79576 Weil am Rhein"><i class="fa fa-map-marker"></i> <span>Königsberger Str. 2 79576 Weil am Rhein</span></a>
+              <a href="https://www.google.com/maps/dir//smile+in+weil/@47.595675,7.5605949,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4791ba035380eaf3:0x6f2d47e5f9933ca3!2m2!1d7.6258861!2d47.5940648" data-toggle="tooltip" data-placement="bottom" target="_blank" title="Königsberger Str. 2 79576 Weil am Rhein"><i class="fa fa-map-marker"></i> <span>Königsberger Str. 2 79576 Weil am Rhein</span></a>
               <a href="#" data-toggle="tooltip" data-placement="bottom" title="+49 (0)7621 / 79 22 20"><i class="fa fa-phone"></i> <span>+49 (0) 7621 / 79 22 20</span></a>
               <a href="#" data-toggle="tooltip" data-placement="bottom" title="info.dento@gmail.com"><i class="fa fa-envelope"></i> <span>info.dento@gmail.com</span></a>
             </div>
@@ -87,8 +87,8 @@
                   <li><a href="{% url 'service' %}">Leistungen</a></li>
                   <li><a href="#">Info</a>
                     <ul class="dropdown">
-                      <li><a href="{% url 'blog' %}">- FAQs</a></li>
-                      <li><a href="{% url 'blog_details' %}">- Jobs</a></li>
+                      <li><a href="{% url 'faq' %}">- FAQs</a></li>
+                      <li><a href="{% url 'jobs' %}">- Jobs</a></li>
                     </ul>
                   </li>
                   <li><a href="{% url 'contact' %}">Kontakt</a></li>
@@ -142,11 +142,11 @@
 
             <!-- Opening Hours -->
             <ul class="opening-hours">
-              <li><span>Mo-Mi</span> <span>8.00-18.00</span></li>
-              <li><span>Thu-Fri</span> <span>8.00-17.00</span></li>
-              <li><span>Sa</span> <span>9.00-17.00</span></li>
-              <li><span>So</span> <span>10.00-17.00</span></li>
-              <li><span>Notdienst</span> <span>?</span></li>
+              <li><span>Mo-Di</span> <span>8:00 - 12:30, 13:30 - 18:00</span></li>
+              <li><span>Mi</span> <span>14:00 - 19:00</span></li>
+              <li><span>Thu</span> <span>8:00 - 12:30, 13:30 - 17:00</span></li>
+              <li><span>Fri</span> <span>8:00 - 12:00</span></li>
+              <li><span>Sa</span> <span>Geschlossen</span></li>
             </ul>
           </div>
 
@@ -161,12 +161,12 @@
             <nav>
               <ul class="quick-links">
                 <li><a href="{% url 'about' %}">About</a></li>
-                <li><a href="#">FAQs</a></li>
+                <li><a href="{% url 'faq' %}">FAQs</a></li>
                 <li><a href="{% url 'contact' %}">Contact</a></li>
                 <li><a href="#">Policy</a></li>
                 <li><a href="#">News</a></li>
                 <li><a href="#">Advisors</a></li>
-                <li><a href="#">Careers</a></li>
+                <li><a href="{% url 'jobs' %}">Careers</a></li>
                 <li><a href="#">Dentist</a></li>
                 <li><a href="{% url 'service' %}">Services</a></li>
                 <li><a href="#">Legals</a></li>
