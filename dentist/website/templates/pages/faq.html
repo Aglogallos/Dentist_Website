@@ -1,0 +1,194 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <!-- ***** Breadcrumb Area Start ***** -->
+  <div class="breadcumb-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg_img/12.jpg' %});">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12">
+          <h2 class="title">Frequently Asked Questions</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="breadcumb--con">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="{% url 'home' %}"><i class="fa fa-home"></i> Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">FAQs</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Breadcrumb Area End ***** -->
+
+  <!-- *****Blog Area Start ***** -->
+  <section class="dento-blog-area mt-50">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-8">
+
+          <!-- Single Blog Item Question No 9 -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+                <img src="{% static 'website/img/bg_img/20.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a class="post-title">Wie oft muss ich zur Professionellen Zahnreinigung kommen ?</a>
+              <section>
+                <details>
+                  <summary> <p style = "display: inline;">Das hängt von Ihren individuellen Prophylaxeplan ab. Dieses werden wir</p></summary>
+                  <p>gemeinsam nach Ihren Bedürfnissen erstellen. Wie oft eine PZR sinnvoll ist, hängt von verschiedenen Faktoren ab, wie z.B. Parodontitisrisiko, Kariesrisiko, allgemeinen Erkrankungen (z.B Diabetes). Die empfohlenen Intervalle liegen zwischen 4 und 12 Monaten.</p>
+                </details>
+              </section>
+            </div>
+          </div>
+
+          <!-- Single Blog Item No 6-->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+                <img src="{% static 'website/img/bg_img/16.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a class="post-title">Ist Bleaching (Zahnaufhellung) schädlich für die Zähne ?</a>
+              <section>
+                <details>
+                  <summary> <p style = "display: inline;">Falls das Bleaching richtig angewendet wird, ist es für die Zähne nicht schädlich.</p></summary>
+                  <p>Der Zahnschmelz ist die härteste biologische Substanz der Zähne und sehr widerstandsfähig. Einzige Säuren, wie z.B. die,von Kariesbakterien gebildet werden, können dem Zahnschmelz schaden. Allerdings ist es zu beachten, dass die Zahnhälse und das Zahnfleisch von dem Bleaching-Gel geschützt werden müssen. Daher sollte das Bleaching nur von qualifiziertem Personal durchgeführt werden. Einzige Nebenwirkung kann eine vorübergehende Empfindlichkeit der Zähne sein. Allergien oder Unverträglichkeiten sind nicht bekannt.</p>
+                </details>
+              </section>
+            </div>
+          </div>
+
+          <!-- Single Blog Item No 7 -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+                <img src="{% static 'website/img/bg_img/denerve.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a class="post-title">Ist eine Wurzelbehandlung schmerzhaft ?</a>
+              <section>
+                <details>
+                  <summary> <p style = "display: inline;">In der Regel ist eine Wurzelbehandlung nicht schmerzhaft, denn der Zahn wird</p></summary>
+                  <p> dazu betäubt. So werden Sie während der ganzen Prozedur nichts spüren. Wir versuchen jede Behandlung so schmerzfrei wie möglich zu gestalten.</p>
+                </details>
+              </section>
+            </div>
+          </div>
+
+          <!-- Single Blog Item No 8 -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+              <a>
+                <img src="{% static 'website/img/bg_img/kid_dentist.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a class="post-title">In welchem Alter soll mein Kind zum ersten Mal zum Zahnarzt?</a>
+              <section>
+                <details>
+                  <summary> <p style = "display: inline;">Grundsätzlich sobald die ersten Milchzähne durchbrechen, also wenn das</p></summary>
+                  <p>Baby etwa ein halbes Jahr alt ist, sollte der erste Zahnarztbesuch anstehen. Kinderärzte empfehlen in der Regel,  ab dem dritten Lebensjahr regelmäßig zum Zahnarzt zu gehen. Das wichtigste daran ist ein Vertrauen aufzubauen zwischen Zahnarzt und Kind. </p>
+                </details>
+              </section>
+            </div>
+          </div>
+
+          <!-- Single Blog Item No 5 -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+              <a>
+                <img src="{% static 'website/img/bg_img/toothpain.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content -->
+            <div class="blog-content">
+              <a class="post-title">Ich habe Zahnschmerzen, was kann ich tun?</a>
+              <section>
+                <details>
+                  <summary> <p style = "display: inline;">Bei Beschwerden und Zahnschmerzen können Sie uns natürlich jederzeit zu</p></summary>
+                  <p>unseren Öffnungszeiten anrufen. In dringenden Notfällen können Sie uns auch nach den Öffnungszeiten erreichen. Die dafür notwendige Telefonnummer ist auf unserem Anrufbeantworter hinterlegt.</p>
+                </details>
+              </section>
+
+            </div>
+          </div>
+
+          <!-- Pagination -->
+          <nav class="dento-pagination mb-100">
+            <ul class="pagination">
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="{% url 'faq-page=2' %}">2</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Dento Sidebar Area -->
+        <div class="col-12 col-lg-4">
+          <div class="dento-sidebar">
+
+            <!-- Single Widget Area -->
+            <div class="single-widget-area news-widget">
+              <h5 class="widget-title">Interessante Fakten<p><b> Schlauer werden in Sekunden </b></p></h5> 
+
+
+              <!-- Single News Area -- Intresting Fact 2 -->
+              <div class="single-news-area d-flex align-items-center">
+                <div class="blog-thumbnail">
+                  <img src="{% static 'website/img/bg_img/electric_toothbrush.jpg' %}" alt="">
+                </div>
+                <div class="blog-content">
+                  <a>Reinigen Elektrische Zahnbürsten eigentlich besser als normale ? <br><br>Die elektrischen Zahnbürsten können mit bis zu 40.000 Umdrehungen pro Minute arbeiten und somit mehr Beläge und Bakterien entfernen. Ob elektrische Zahnbürsten wirksamer sind als Handbürsten, hängt auch von der Putztechnik des Individuums ab. </a>
+                </div>
+              </div>
+
+              <!-- Single News Area -- Intresting Fact 5 -->
+              <div class="single-news-area d-flex align-items-center">
+                <div class="blog-thumbnail">
+                  <img src="{% static 'website/img/bg_img/baby_smile_2.jpg' %}" alt="">
+                </div>
+                <div class="blog-content">
+                  <a> Lächeln ist nicht nur ein Gesichtsausdruck. Es fördert im Gehirn die Produktion von Endorphinen, die das Wohlbefinden steigern und verringern seelische Schmerzen. Frauen lächeln mehr als Männer und Kinder lachen 26 Mal häufiger als Erwachsene.  </a>
+                </div>
+              </div>
+            </div>
+
+              <!-- Single News Area -- Intresting Fact 1 -->
+              <div class="single-news-area d-flex align-items-center">
+                <div class="blog-thumbnail">
+                  <img src="{% static 'website/img/bg_img/detective.jpg' %}" alt="">
+                </div>
+                <div class="blog-content">                  
+                  <a>Ihre Zähne sind so einzigartig wie Ihr Fingerabdruck. Keine zwei Menschen haben das gleiche Gebiss! Deswegen können Menschen anhand der zahnärztlichen Aufzeichnungen identifiziert werden. </a>
+                </div>
+              </div>
+
+            <!-- Single Widget Area -->
+            <div class="single-widget-area adds-widget">
+              <a href="#"><img class="w-100" src="{% static 'website/img/bg_img/12.jpg' %}" alt=""></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

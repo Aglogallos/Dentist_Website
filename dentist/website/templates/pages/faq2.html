@@ -1,0 +1,195 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <!-- ***** Breadcrumb Area Start ***** -->
+  <div class="breadcumb-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg_img/12.jpg' %});">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12">
+          <h2 class="title">Frequently Asked Questions</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="breadcumb--con">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="{% url 'home' %}"><i class="fa fa-home"></i> Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">FAQs</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Breadcrumb Area End ***** -->
+
+  <!-- *****Blog Area Start ***** -->
+  <section class="dento-blog-area mt-50">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-8">
+
+          <!-- Single Blog Item -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+                <img src="{% static 'website/img/bg_img/red_wine.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content No 1 -->
+            <div class="blog-content">
+              <a class="post-title">Was kann man gegen verfärbte Zähne durch Rotwein unternehmen ?</a>
+              <section>
+                <details>
+                  <summary> <p style = "display: inline;">Tip 1: Vor dem Rotwein Zähne putzen, nicht hinterher. Zähne putzen ist immer</p></summary>
+                  <p>eine gute Idee. So entfernt man vorher möglichen Zahnbelag, an dem sich die Farbmoleküle des Weins festsetzen können. Ungefähr eine Stunde vorher ist ein guter Zeitpunkt, um gefärbten Zähnen durch Rotwein aus dem Weg zu gehen. 
+                    <br><br>Tip 2: Währenddessen Wasser trinken: Wasser trinken hilft, die Farbpigmente direkt wegzuspülen, sodass sie sich gar nicht erst den Zähnen absetzen können. Außerdem wird damit der natürliche Schutz , der Speichelfluss, angeregt, der ebenfalls hilft, die Reste des Weins zu entfernen. </p>
+                </details>
+              </section>
+            </div>
+          </div>
+
+          <!-- Single Blog Item -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+                <img src="{% static 'website/img/bg_img/sore_throat.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content No 2 -->
+            <div class="blog-content">
+              <a class="post-title">Wie kann es zu Halsschmerzen aufgrund schlechter Mundgesundheit kommen ?</a>
+              <section>
+                <details>
+                  <summary> <p style = "display: inline;">Unsere Schleimhäute im Mund- und Rachenraum und das Gleichgewicht der</p></summary>
+                  <p>Mundflora sind zwei wichtige Schutzbarrieren, die im Alltag dafür sorgen, dass wir frei von Entzündungen oder Krankheiten im Mund- und Rachenraum wie Halsschmerzen leben können. Einige Risikofaktoren wie etwa schlechte Mundhygiene, ein geschwächtes Immunsystem oder Rauchen können diese Schutzbarrieren beeinträchtigen und die Wahrscheinlichkeit </p>
+                </details>
+              </section>
+            </div>
+          </div>
+
+          <!-- Single Blog Item -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+                <img src="{% static 'website/img/bg_img/19.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content No 3 -->
+            <div class="blog-content">
+              <a class="post-title">Wie wichtig sind regelmäßige Kontrolluntersuchungen beim Zahnarzt ?</a>
+              <section>
+                <details>
+                  <summary> <p style = "display: inline;"> Regelmäßige Kontrolluntersuchungen beim Zahnarzt sind sehr wichtig für die</p></summary>
+                  <p>Zahn und Mundgesundheit und sollten deshalb gewissenhaft wahrgenommen werden. Es können Erkrankungen frühzeitig erkannt und somit behandelt werden, aber auch bei bereits bestehenden Zahn- und Munderkrankungen ist die regelmäßige Kontrolle wichtig, um das Krankheitsbild und dessen Verlauf dokumentieren zu können. </p>
+                </details>
+              </section>
+            </div>
+          </div>
+
+          <!-- Single Blog Item -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+              <a>
+                <img src="{% static 'website/img/bg_img/checkup.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content No  4-->
+            <div class="blog-content">
+              <a class="post-title">Wie oft sollte man zur Kontrolluntersuchung beim Zahnarzt ?</a>
+              <section>
+                <details>
+                  <summary> <p style = "display: inline;">Dies ist sehr individuell, die Empfehlungen reichen von einmal bis</p></summary>
+                  <p>viermal pro Jahr. Abhängig ist das vom Gesundheitszustand der Zähne sowie von etwaigen Begleiterkrankungen. Um die Zahn- und Mundgesundheit sicherzustellen, ist es empfehlenswert, jede 6 Monate eine Kontrolluntersuchung in unserer Praxis durchzuführen.  Somit können potentielle Erkrankungen vorgebeugt werden. Bei Patienten, die z.B an einer schweren Parodontitis erkrankt sind oder an Diabetes leiden, sollte man daraus drei bis viermal pro Jahr kontrollieren.</p>
+                </details>
+              </section>
+            </div>
+          </div>
+
+          <!-- Single Blog Item -->
+          <div class="single-blog-item style-2 d-flex flex-wrap align-items-center mb-50">
+            <!-- Blog Thumbnail -->
+            <div class="blog-thumbnail">
+              <a>
+                <img src="{% static 'website/img/bg_img/teeth_whitening.jpg' %}" alt="">
+              </a>
+            </div>
+            <!-- Blog Content No 10 -->
+            <div class="blog-content">
+              <a class="post-title"> Wie kann ich meine Zähne am besten aufhellen ?</a>
+              <section>
+                <details>
+                  <summary> <p style = "display: inline;">Es gibt viele Aufhellungsprodukte im Handel zu kaufen, und Sie können Gels</p></summary>
+                  <p>und Schienen von Ihrem Zahnarzt mit nach Hause nehmen, aber beides ist nicht so wirksam wie eine Behandlung in einer Zahnarztpraxis. <br><br> Wenn Sie ein freiverkäufliches Bleichmittel ausprobieren möchten, achten Sie auf ein Produkt mit dem ADA-Siegel. Lassen Sie sich vor dem Kauf von Ihrem Zahnarzt beraten, besonders wenn Sie Zahnbehandlungen oder dunkle Flecken haben. Und verwenden Sie es nicht ständig, sonst könnten Sie Ihre Zähne schädigen. </p>
+                </details>
+              </section>
+
+            </div>
+          </div>
+
+          <!-- Pagination -->
+          <nav class="dento-pagination mb-100">
+            <ul class="pagination">
+              <li class="page-item "><a class="page-link" href="{% url 'faq' %}">1</a></li>
+              <li class="page-item active"><a class="page-link" href="#">2</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- Dento Sidebar Area -->
+        <div class="col-12 col-lg-4">
+          <div class="dento-sidebar">
+
+            <!-- Single Widget Area -->
+            <div class="single-widget-area news-widget">
+              <h5 class="widget-title">Interessante Fakten<p><b> Schlauer werden in Sekunden </b></p></h5> 
+
+              <!-- Single News Area -- Intresting Fact 3 -->
+              <div class="single-news-area d-flex align-items-center">
+                <div class="blog-thumbnail">
+                  <img src="{% static 'website/img/bg_img/teeth_vertical.jpg' %}" alt="">
+                </div>
+                <div class="blog-content">                  
+                  <a>Der Zahnschmelz ist die härteste Substanz im ganzen Körper. Es ist härter als Knochen. Um möglichst so widerstandsfähig zu bleiben, ist es empfehlenswert, Zahnpasta mit Fluorid zu benutzen. Fluorid härtet den Zahnschmelz und beugt so Karies vor. </a>
+                </div>
+              </div>
+
+              <!-- Single News Area -- Intresting Fact 5 -->
+              <div class="single-news-area d-flex align-items-center">
+                <div class="blog-thumbnail">
+                  <img src="{% static 'website/img/bg_img/baby_smile.jpg' %}" alt="">
+                </div>
+                <div class="blog-content">
+                  <a>Lächeln ist nicht nur ein Gesichtsausdruck. Es fördert im Gehirn die Produktion von Endorphinen, die das Wohlbefinden steigern und verringern seelische Schmerzen. Frauen lächeln mehr als Männer und Kinder lachen 26 Mal häufiger als Erwachsene. </a>
+                </div>
+              </div>
+
+              <!-- Single News Area -- Intresting Fact 6 -->
+              <div class="single-news-area d-flex align-items-center">
+                <div class="blog-thumbnail">
+                  <img src="{% static 'website/img/bg_img/baby_smile_2.jpg' %}" alt="">
+                </div>
+                <div class="blog-content">
+                  <a>Bei Mäusen wachsen beschädigte Zähne wieder nach, leider klappt das bei uns Menschen nicht. Falls ein Loch im Zahn vorhanden ist, kann nur der Zahnarzt helfen. </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Single Widget Area -->
+            <div class="single-widget-area adds-widget">
+              <a href="#"><img class="w-100" src="{% static 'website/img/bg_img/12.jpg' %}" alt=""></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- *****Blog Area End ***** -->
+{% endblock %}

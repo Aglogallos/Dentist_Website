@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <!-- ***** Breadcrumb Area Start ***** -->
+  <div class="breadcumb-area bg-img bg-gradient-overlay" style="background-image: url({% static 'website/img/bg-img/12.jpg' %});">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12">
+          <h2 class="title">agb</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="breadcumb--con">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="{% url 'home' %}"><i class="fa fa-home"></i> Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">AGBs</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Breadcrumb Area End ***** -->
+
+  <!-- ****** AGB Area Start ******* -->
+  <section class="dento--blog-area mt-50">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-8 mb-100">
+          <!-- Blog Details Area -->
+          <div class="blog-details-area">
+
+            <h2 class="post-title">Smile in Weil AGBs</h2>
+            
+            <img src="{% static 'website/img/bg_img/jobs.jpg' %}" alt="">
+
+            <h5>Allgemeine Geschäftsbedingungen</h5>
+            <br>
+            <p>Allgemeine Geschäftsbedingungen, empfohlen und herausgegeben durch die Landeszahnärztekammer Baden-Württemberg.</p>
+            <br><br>
+            <p><b>§ 1 Geltungsbereich</b></p>
+            <p>Diese Allgemeinen Geschäftsbedingungen gelten, soweit nichts anderes vereinbart ist, für die vertraglichen Beziehungen zwischen dem Zahnarzt und dem Patienten. Zahnarzt im Sinne der Allgemeinen Geschäftsbedingungen ist auch die Berufsausübungsgemeinschaft mehrerer Zahnärzte. Sollte der Behandlungsvertrag mit einer anderen Person als dem Patienten abgeschlossen werden, gelten die Regelungen für diese in gleicher Weise.</p>
+            <br>
+
+            <p><b>§ 2 Rechtsverhältnis</b></p>
+            <p>Die Rechtsbeziehungen zwischen dem Zahnarzt und dem Patienten sind privatrechtlicher Natur. Bei der Behandlung gesetzlich krankenversicherter Patienten finden darüber hinaus auch die Vorschriften der vertragszahnärztlichen Versorgung Anwendung.</p>
+            <br>
+
+            <p><b>§ 3 Zahnärztliche Dokumentation und Datenschutz</b></p>
+            <p>Die zahnärztliche Dokumentation, insbesondere Patientenkartei, Untersuchungsbefunde, Röntgenaufnahmen und andere Aufzeichnungen, ist Eigentum des Zahnarztes.
+                Der Patient oder ein von ihm Bevollmächtigter hat Anspruch auf Einsicht in die zahnärztliche Dokumentation und Anspruch auf Auskunft. Ein Anspruch auf Herausgabe der Originalunterlagen besteht nicht. Auf Verlangen können Kopien der schriftlichen Dokumentation gegen Kostenerstattung überlassen werden.
+                Abweichend von Abs. 2 ist die vorübergehende Überlassung von Originalunterlagen, insbesondere von Röntgenaufnahmen, an einen vom Patienten bevollmächtigten Rechtsanwalt möglich, soweit nicht überwiegende Interessen des Zahnarztes entgegenstehen. Vor der Versendung sind die hierdurch entstehenden Auslagen zu erstatten und der Erhalt der Aufzeichnungen ist zu quittieren. Die Überlassung kann bis zum Ausgleich der Auslagen verweigert werden.
+                Die Erhebung, Nutzung und Verarbeitung der Daten, einschließlich ihrer Weitergabe erfolgt unter Beachtung der gesetzlichen Regelung, insbesondere der Bestimmung über den Datenschutz, der ärztlichen Schweigepflicht und des Sozialgeheimnisses.</p>
+            <br>
+
+            <p><b>§ 4 Ausfallhonorar</b></p>
+            <p>Die vereinbarten Behandlungstermine sind Fixtermine. Die Behandlungszeiten werden allein für den Patienten frei gehalten. Soweit der Termin durch den Patienten nicht wahrgenommen werden kann, hat dieser die Zahnarztpraxis mindestens 24 Stunden vor dem vereinbarten Termin über die Verhinderung in Kenntnis zu setzen. Soweit der Patient dem nicht nachkommt, hat er an den Zahnarzt einen angemessenen Betrag pro ausgefallener Behandlungsstunde als Schadensersatz zu bezahlen. Dieser entspricht aktuell 45€ pro Viertelstunde. Der Schadensersatzanspruch entfällt, wenn der Patient unverschuldet an der rechtzeitigen Absage oder Wahrnehmung des Termins gehindert war. Dem Patienten steht es darüber hinaus frei nachzuweisen, dass dem Zahnarzt kein oder ein geringerer als der geltend gemachte pauschalierten Schaden entstanden ist.
+            </p>
+            <br>
+
+            <p><b>§ 5 Zahlungsregelungen</b></p>
+            <p>Der Patient wird vor Behandlungsbeginn über die zu erwartenden Gesamtkosten, bzw. Eigenanteil und Mehrkosten bei gesetzlich versicherten Patienten, informiert. Der Zahnarzt kann bei privat versicherten Patienten vor Behandlungsbeginn die Zahlung eines Vorschusses bis zu 100 % der zu erwartenden Auslagen (Material- und Laborkosten) verlangen.Grundsätzlich erfolgt die Rechnungsstellung über die ZAB Abrechnungsgesellschaft mbH, in diesem Fall gelten auch dessen AGB´s. Erfolgt die Rechnungsstellung nicht über die ZAB Abrechnungsgesellschaft mbH, wird mit Zugang der Rechnung diese zur Zahlung fällig. Der Patient kommt nach der Mahnung, spätestens aber 30 Tage nach Rechnungszugang in Verzug. Ab diesem Zeitpunkt wird der Rechnungsbetrag mit fünf Prozent über den Basiszinssatz, oder einem höheren, tatsächlich vom Zahnarzt bezahlten Zinssatz verzinst. Für jede Mahnung werden zusätzlich 5,00€ als Bearbeitungsgebühr berechnet.</p>
+            <br>
+
+            <p><b>§ 6 Abtretungsverbot</b></p>
+            <p>Die Abtretung von nicht rechtskräftig festgestellten oder unbestrittenen Forderungen aus dem Behandlungsverhältnis ist ausgeschlossen, soweit der Zahnarzt dieser nicht vorher zustimmt.</p>
+            <br>
+
+            <p><b>§ 7 Haftungsbeschränkung</b></p>
+            <p>Für Schäden an eingebrachte Sachen, die in der Obhut des Patienten bleiben und an Fahrzeugen des Patienten, die auf dem Grundstück der Praxis abgestellt werden, haftet der Zahnarzt nur bei Vorsatz und grober Fahrlässigkeit. Gleiches gilt bei Verlust von Geld und Wertsachen. Für Garderobe des Patienten, welche er in den Praxisräumen ablegt, wird keine Haftung übernommen.</p>
+            <br>
+
+            <p><b>§ 8 Schlussbestimmung</b></p>
+            <p>Sollten Bestimmungen dieser Allgemeinen Geschäftsbedingungen unwirksam sein oder werden oder ein Lücke enthalten, so bleiben die übrigen Bestimmungen hiervor unberührt.</p>
+            <br>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ****** AGB Area End ******* -->
+{% endblock %}

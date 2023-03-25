@@ -37,9 +37,9 @@
           <!-- Top Content -->
           <div class="col-6 col-md-9 col-lg-8">
             <div class="top-header-content">
-              <a href="" data-toggle="tooltip" data-placement="bottom" target="_blank" title="Königsberger Str. 2 79576 Weil am Rhein"><i class="fa fa-map-marker"></i> <span>Königsberger Str. 2 79576 Weil am Rhein</span></a>
+              <a href="https://www.google.com/maps/dir//smile+in+weil/@47.595675,7.5605949,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x4791ba035380eaf3:0x6f2d47e5f9933ca3!2m2!1d7.6258861!2d47.5940648" data-toggle="tooltip" data-placement="bottom" target="_blank" title="Königsberger Str. 2 79576 Weil am Rhein"><i class="fa fa-map-marker"></i> <span>Königsberger Str. 2 79576 Weil am Rhein</span></a>
               <a href="#" data-toggle="tooltip" data-placement="bottom" title="+49 (0)7621 / 79 22 20"><i class="fa fa-phone"></i> <span>+49 (0) 7621 / 79 22 20</span></a>
-              <a href="#" data-toggle="tooltip" data-placement="bottom" title="info.dento@gmail.com"><i class="fa fa-envelope"></i> <span>info.dento@gmail.com</span></a>
+              <a href="#" data-toggle="tooltip" data-placement="bottom" title="info@smile-in-weil.de"><i class="fa fa-envelope"></i> <span>info@smile-in-weil.de</span></a>
             </div>
           </div>
           <!-- Top Header Social Info -->
@@ -87,8 +87,8 @@
                   <li><a href="{% url 'service' %}">Leistungen</a></li>
                   <li><a href="#">Info</a>
                     <ul class="dropdown">
-                      <li><a href="{% url 'blog' %}">- FAQs</a></li>
-                      <li><a href="{% url 'blog_details' %}">- Jobs</a></li>
+                      <li><a href="{% url 'faq' %}">- FAQs</a></li>
+                      <li><a href="{% url 'jobs' %}">- Jobs</a></li>
                     </ul>
                   </li>
                   <li><a href="{% url 'contact' %}">Kontakt</a></li>
@@ -98,7 +98,7 @@
             </div>
 
             <!-- Booking Now Button -->
-            <a href="" target="_blank" class="btn dento-btn booking-btn">Termin buchen</a>
+            <a href="https://www.doctolib.de/einzelpraxis/weil-am-rhein/smile-in-weil?utm_campaign=website-button&utm_source=smile-in-weil-website-button&utm_medium=referral&utm_content=option-8&utm_term=smile-in-weil#team" target="_blank" class="btn dento-btn booking-btn">Termin buchen</a>
           </nav>
         </div>
       </div>
@@ -115,7 +115,7 @@
         <!-- Single Footer Widget -->
         <div class="col-12 col-sm-6 col-lg-4">
           <div class="single-footer-widget">
-            <a href="{% url 'home' %}" class="d-block mb-4"><img src="{% static 'website/img/core_img/Smile_Logo_svg_white.png' %}" alt=""></a>
+            <a href="{% url 'home' %}" class="d-block mb-4"><img src="{% static 'website/img/core_img/Smile_Logo_white_svg.svg' %}" alt=""></a>
             <div class="row"> 
               <div class="footer-social-info">
                 <a href="https://www.doctolib.de/einzelpraxis/weil-am-rhein/smile-in-weil?utm_campaign=website-button&utm_source=smile-in-weil-website-button&utm_medium=referral&utm_content=option-8&utm_term=smile-in-weil" target = "_blank" tooltip" data-placement="bottom" title="Doctorlib"><i class="fa fa-user-md"></i></a>
@@ -125,7 +125,9 @@
               </div>
             </div>
             <p></p>
-            <p>Making the world a better place, one smile at a time</p>
+            <p>Es ist ein schöner Tag, um ein Lächeln zu retten!<br>
+              Starte dein Tag mit ein Lächeln<br> 
+             Beim Lächeln schöne Zähne zeigen!</p>
             <div class="footer-contact">
               <p><i class="icon_pin"></i> Königsberger Str. 279576 Weil am Rhein</p>
               <p><i class="icon_phone"></i> +49 / 7621 / 79 22 20</p>
@@ -142,11 +144,11 @@
 
             <!-- Opening Hours -->
             <ul class="opening-hours">
-              <li><span>Mo-Mi</span> <span>8.00-18.00</span></li>
-              <li><span>Thu-Fri</span> <span>8.00-17.00</span></li>
-              <li><span>Sa</span> <span>9.00-17.00</span></li>
-              <li><span>So</span> <span>10.00-17.00</span></li>
-              <li><span>Notdienst</span> <span>?</span></li>
+              <li><span>Mo-Di</span> <span>8:00 - 12:30, 13:30 - 18:00</span></li>
+              <li><span>Mi</span> <span>14:00 - 19:00</span></li>
+              <li><span>Thu</span> <span>8:00 - 12:30, 13:30 - 17:00</span></li>
+              <li><span>Fri</span> <span>8:00 - 12:00</span></li>
+              <li><span>Sa</span> <span>Geschlossen</span></li>
             </ul>
           </div>
 
@@ -156,20 +158,18 @@
         <div class="col-12 col-sm-6 col-lg">
           <div class="single-footer-widget">
             <!-- Widget Title -->
-            <h5 class="widget-title">Quick Link</h5>
+            <h5 class="widget-title">Schnelle Links</h5>
             <!-- Quick Links Nav -->
             <nav>
               <ul class="quick-links">
-                <li><a href="{% url 'about' %}">About</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="{% url 'contact' %}">Contact</a></li>
-                <li><a href="#">Policy</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Advisors</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Dentist</a></li>
-                <li><a href="{% url 'service' %}">Services</a></li>
-                <li><a href="#">Legals</a></li>
+                <li><a href="{% url 'about' %}">Über Uns</a></li>
+                <li><a href="{% url 'faq' %}">FAQs</a></li>
+                <li><a href="{% url 'contact' %}">Kontakt</a></li>
+                <li><a href="{% url 'service' %}">Leistungen</a></li>
+                <li><a href="{% url 'jobs' %}">Jobs</a></li>
+                <li><a href="{% url 'impressum' %}">Impressum</a></li>
+                <li><a href="{% url 'agb' %}">AGBs</a></li>
+                <li><a href="{% url 'datenschutz' %}">Datenschutz</a></li>
               </ul>
             </nav>
           </div>
@@ -180,7 +180,7 @@
       <div class="row">
         <div class="col-12">
           <div class="copywrite-content">
-            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://instagram/aglogallos.com" target="_blank">Status</a></p>
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://status-electronics.gr" target="_blank">Status</a></p>
           </div>
         </div>
       </div>
